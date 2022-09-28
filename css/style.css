@@ -1,0 +1,79 @@
+html {
+	font-family: 'Tajawal', sans-serif;
+}
+
+
+
+header {
+	min-height: 100vh;
+	width: 100%;
+	background: linear-gradient(rgba(0, 61, 77, 0.7), rgba(0, 48, 59, 0.7)),
+		url(../images/mountains.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+.logo {
+	height: 50px;
+}
+
+.navbar {
+
+	box-shadow: 0 2px 8px 1px rgba(50, 94, 105, 0.7);
+}
+
+.navbar-brand,
+.nav-link {
+	color: rgb(13, 0, 68);
+	transition: all 0.4s;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	font-weight: 400;
+	padding-right: 30px !important;
+}
+
+.nav-link.active,
+.navbar-brand:hover,
+.nav-link:hover {
+	color: azure !important;
+}
+
+.feature {
+	width: 22%
+}
+
+.dropdown {
+	transition: all 0.2s
+}
+
+.dropdown:hover {
+	color: #0D6EFD;
+	font-weight: bold;
+}
+
+.card {
+	width: 20%;
+	height: auto;
+	margin-left: 3%;
+	position: relative;
+}
+
+.author-img {
+	position: absolute;
+	width: 50%;
+	top: -12%;
+	right: 23%;
+}
+
+.card-h {
+	padding-top: 100px;
+}
+
+.author-nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	display: flex;
+	justify-content: space-evenly
+}
