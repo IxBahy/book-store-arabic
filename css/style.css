@@ -17,6 +17,10 @@ header {
 	height: 50px;
 }
 
+.feature {
+	width: 18%;
+}
+
 .navbar {
 
 	box-shadow: 0 2px 8px 1px rgba(50, 94, 105, 0.7);
@@ -40,9 +44,8 @@ header {
 	color: azure !important;
 }
 
-.feature {
-	width: 22%
-}
+
+
 
 .dropdown {
 	transition: all 0.2s
@@ -53,22 +56,8 @@ header {
 	font-weight: bold;
 }
 
-.card {
-	width: 20%;
-	height: auto;
-	margin-left: 3%;
-	position: relative;
-}
-
-.author-img {
-	position: absolute;
-	width: 50%;
-	top: -12%;
-	right: 23%;
-}
-
-.card-h {
-	padding-top: 100px;
+#author img {
+	margin-top: -80px;
 }
 
 .author-nav {
